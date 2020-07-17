@@ -1,0 +1,16 @@
+<templateSet group="SQL">
+  <template name="datefr" value="DATE_FORMAT(date_creation,\'%d/%m/%Y à %Hh%imin%ss\') AS date_creation_fr" description="date format francais 07/03/2019 à 2h03min25s" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="PHP" value="true" />
+      <option name="SQL" value="true" />
+    </context>
+  </template>
+  <template name="$bdd" value="&lt;?php&#10;try {&#10;    $db = new PDO('mysql:host=localhost;dbname=test;charset=utf8', 'root', '', [PDO::ATTR_ERRMODE =&gt; PDO::ERRMODE_EXCEPTION]);&#10;} catch (Exception $e) {&#10;    die('Erreur : ' . $e-&gt;getMessage());&#10;}&#10;?&gt;" description="connection a la base de donnée" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="PHP" value="true" />
+      <option name="SQL" value="true" />
+    </context>
+  </template>
+</templateSet>

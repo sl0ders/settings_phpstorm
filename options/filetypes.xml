@@ -1,0 +1,16 @@
+<application>
+  <component name="FileTypeManager" version="17">
+    <extensionMap>
+      <mapping pattern=".tabnine_root" type="Native" />
+      <mapping pattern="test" type="PHP" />
+      <mapping pattern="signUp" type="PLAIN_TEXT" />
+      <mapping pattern="formSearch" type="PLAIN_TEXT" />
+      <mapping pattern=".htaccess" type="PLAIN_TEXT" />
+      <mapping ext="mo" type="PLAIN_TEXT" />
+      <mapping pattern="_formNewPicture" type="Twig" />
+      <mapping pattern="show" type="Twig" />
+      <mapping ext="txig" type="Twig" />
+      <mapping ext="gradle.kts" type="Kotlin" />
+    </extensionMap>
+  </component>
+</application>

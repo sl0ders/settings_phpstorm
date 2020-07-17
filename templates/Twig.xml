@@ -1,0 +1,8 @@
+<templateSet group="Twig">
+  <template name="form_" value="{{ form_start($NAME$) }}&#10;{{ form_widget($NAME$) }}&#10;&lt;button class=&quot;btn btn-success&quot;&gt;$NAME$&lt;/button&gt;&#10;{{ form_end($NAME$) }}" description="" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="Twig" value="true" />
+    </context>
+  </template>
+</templateSet>

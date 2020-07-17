@@ -1,0 +1,12 @@
+<templateSet group="PHP">
+  <template name="$i" value="for( $i = 1; $i &lt;= 30; $i++){&#10;&#10;}" description="boucle for" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="verifform" value="if ($form-&gt;isSubmitted() &amp;&amp; $form-&gt;isValid()){&#10;   $manager-&gt;persist();&#10;   $manager-&gt;flush();&#10;}" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+</templateSet>
